@@ -3,7 +3,7 @@
 const sqlite3 = require('sqlite3').verbose();
 
 exports.get = function (req, res) {
-    let db = new sqlite3.Database('/home/matheus/repos/SimpleGetNode/api/base.db');
+    let db = new sqlite3.Database('/usr/src/app/api/base.db');
 
     let return_data = {}
 
